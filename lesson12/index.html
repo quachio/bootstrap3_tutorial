@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BootStrap Lesson 6: Column</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <style media="screen">
+            .row {
+                background-color: #eee;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div style="max-width: 1200px; margin: 0 auto; padding: 10px;">
+
+            <div class="container-fluid">
+
+                <div class="row">
+
+                    <div class="col-xs-12">
+                        <h1>Button Styles (no classes added)</h1>
+                        <a href="#">Anchor Tag</a>
+                        <button type="submit">Button tag</button>
+                        <input type="submit" name="name" value="Submit">
+                    </div>
+
+                    <div class="col-xs-12">
+                        <h1>The btn Class</h1>
+                        <a href="#" class="btn btn-default">Anchor tag</a>
+                        <button class="btn btn-default" type="submit" name="button">Button Tag</button>
+                        <input class="btn btn-default" type="submit" value="Submit">
+                    </div>
+
+                    <div class="col-xs-12">
+                        <h1>Contextual Classes</h1>
+                        <a href="#" class="btn btn-default">default</a>
+                        <a href="#" class="btn btn-primary">primary</a>
+                        <a href="#" class="btn btn-info">info</a>
+                        <a href="#" class="btn btn-warning">warning</a>
+                        <a href="#" class="btn btn-danger">danger</a>
+                        <a href="#" class="btn btn-success">success</a>
+                    </div>
+
+                    <div class="col-xs-12">
+                        <h1>Size Classes</h1>
+                        <a href="#" class="btn btn-default btn-xs">extra small (xs)</a>
+                        <button class="btn btn-default btn-sm" type="submit">small (sm)</button>
+                        <input class="btn btn-default btn-lg" type="submit" value="large (lg)">
+                    </div>
+
+                    <div class="col-xs-12">
+                        <h1>Active & Disable Classes</h1>
+                        <a href="#" class="btn btn-default active">active</a>
+                        <a href="#" class="btn btn-default disable">disable</a>
+                        <a href="#" class="btn btn-primary active">active</a>
+                        <a href="#" class="btn btn-primary disabled">disable</a>
+                        <button class="btn btn-default" type="button" name="button" disabled="disabled">button</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Bootstrap Latest compiled and minified JavaScript, make sure to load jquery first -->
+        <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </body>
+
+</html>

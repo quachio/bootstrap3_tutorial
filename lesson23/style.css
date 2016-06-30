@@ -1,0 +1,23 @@
+.register {
+    margin-left: 10px;
+}
+
+.inbox {
+    margin-left: 10px;
+}
+
+.noticiation {
+    background: green;
+}
+
+.btn-primary .badge {
+    margin-left: 5px;
+    color: #fff;
+    background: #d9534f;
+}
+
+.btn-primary .label {
+    background: #d9534f;
+    color: #fff;
+    margin-left: 5px;
+}
